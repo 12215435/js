@@ -47,13 +47,13 @@ button {
     font-size: 1.2em;
 }
 button:nth-child(1) {
-    margin-left: -200px;
+    margin-left: 100px;
     background: #244856;
     color: #ffffff;
     transform: rotate(45deg);
 }
 button:nth-child(2) {
-    margin-right: -200px;
+    margin-right: -100px;
     background: #547676;
     color: #ffffff;
     transform: rotate(45deg); 
