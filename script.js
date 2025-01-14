@@ -6,12 +6,16 @@ const noBtn = document.querySelector(".no-btn");
 
 const message = document.createElement("div");
 message.className = "message";
-message.innerText = "Catch me!";
+message.innerText = "You can't catch me!";  // Changed message
 document.body.appendChild(message);
 
+// Set initial button text
+yesBtn.textContent = "Let's go!";  // Changed button text
+noBtn.textContent = "Not now";      // Changed button text
+
 yesBtn.addEventListener("click", () => {
-  question.innerHTML = "Yay, see you tomorrow!";
-  gif.src = "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNm03dGhjem9zNW0zcTMxc3ZkbjlpNHM2dnFiaTh3aDNhbWhkbG1rYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/SQgbkziuGrNxS/giphy.gif"; 
+  question.innerHTML = "Great choice! Let's begin!";  // Changed success message
+  gif.src = "https://media.giphy.com/media/3oz8xAFtqoOUUrsh7W/giphy.gif"; // Changed to new GIF
 });
 
 let messageShown = false; 
